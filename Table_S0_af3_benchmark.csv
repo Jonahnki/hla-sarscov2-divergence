@@ -1,0 +1,5 @@
+pair_id,hla_allele,peptide,pdb_id,resolution_a,deposit_year,exp_method,tm_score,rmsd_angstrom,rmsd_method,netmhc_rank_el,netmhc_ic50_nm,netmhc_bind_level
+B1,HLA-A*02:01,GILGFVFTL,1OGA,1.4,2003,X-RAY DIFFRACTION,0.9852,0.673,cealign_w8,,,
+B2,HLA-A*02:01,NLVPMVATV,3GSO,1.6,2009,X-RAY DIFFRACTION,0.9922,0.535,cealign_w8,,,
+B4,HLA-B*07:02,RPHERNGFTVL,3VCL,1.7,2012,X-RAY DIFFRACTION,0.9629,1.172,cealign_w8,,,
+B5,HLA-DRB1*01:01,PKYVKQNTLKLAT,1DLH,2.8,1994,X-RAY DIFFRACTION,0.9902,0.433,cealign_w8,,,

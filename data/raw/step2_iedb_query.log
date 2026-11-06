@@ -1,0 +1,133 @@
+2026-06-16 16:10:45  INFO      IEDB IQ-API T-cell query | 16 alleles | organism NCBITaxon:2697049
+2026-06-16 16:10:45  INFO      =================================================================
+2026-06-16 16:10:45  INFO      Pre-flight diagnostics against tcell_search
+2026-06-16 16:10:45  INFO      =================================================================
+2026-06-16 16:10:55  INFO        [unfiltered (limit=1)]
+2026-06-16 16:10:55  INFO          URL:    https://query-api.iedb.org/tcell_search?limit=1
+2026-06-16 16:10:55  INFO          Status: 200
+2026-06-16 16:10:55  INFO          Rows returned: 1
+2026-06-16 16:10:55  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:10:58  INFO        [organism filter only]
+2026-06-16 16:10:58  INFO          URL:    https://query-api.iedb.org/tcell_search?source_organism_iri=eq.NCBITaxon%3A2697049&limit=1
+2026-06-16 16:10:58  INFO          Status: 200
+2026-06-16 16:10:58  INFO          Rows returned: 1
+2026-06-16 16:10:58  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:10:59  INFO        [allele filter only]
+2026-06-16 16:10:59  INFO          URL:    https://query-api.iedb.org/tcell_search?mhc_allele_name=eq.HLA-A%2A02%3A01&limit=1
+2026-06-16 16:10:59  INFO          Status: 200
+2026-06-16 16:10:59  INFO          Rows returned: 1
+2026-06-16 16:10:59  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:11:01  INFO        [organism + allele combined]
+2026-06-16 16:11:01  INFO          URL:    https://query-api.iedb.org/tcell_search?source_organism_iri=eq.NCBITaxon%3A2697049&mhc_allele_name=eq.HLA-A%2A02%3A01&limit=1
+2026-06-16 16:11:01  INFO          Status: 200
+2026-06-16 16:11:01  INFO          Rows returned: 1
+2026-06-16 16:11:01  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:11:02  INFO      =================================================================
+
+2026-06-16 16:11:02  INFO        Querying HLA-A*01:01 ...
+2026-06-16 16:14:24  INFO          Raw hits: 465
+2026-06-16 16:14:24  INFO          Passed filters: 141
+2026-06-16 16:14:25  INFO        Querying HLA-A*02:01 ...
+2026-06-16 16:17:02  WARNING       Attempt 1/4: HTTPSConnectionPool(host='query-api.iedb.org', port=443): Read timed out.
+2026-06-16 16:31:03  INFO      IEDB IQ-API T-cell query | 16 alleles | organism NCBITaxon:2697049
+2026-06-16 16:31:03  INFO      =================================================================
+2026-06-16 16:31:03  INFO      Pre-flight diagnostics against tcell_search
+2026-06-16 16:31:03  INFO      =================================================================
+2026-06-16 16:31:23  INFO        [unfiltered (limit=1)]
+2026-06-16 16:31:23  INFO          URL:    https://query-api.iedb.org/tcell_search?limit=1
+2026-06-16 16:31:23  INFO          Status: 200
+2026-06-16 16:31:23  INFO          Rows returned: 1
+2026-06-16 16:31:23  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:31:24  INFO        [organism filter only]
+2026-06-16 16:31:24  INFO          URL:    https://query-api.iedb.org/tcell_search?source_organism_iri=eq.NCBITaxon%3A2697049&limit=1
+2026-06-16 16:31:24  INFO          Status: 200
+2026-06-16 16:31:24  INFO          Rows returned: 1
+2026-06-16 16:31:24  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:31:25  INFO        [allele filter only]
+2026-06-16 16:31:25  INFO          URL:    https://query-api.iedb.org/tcell_search?mhc_allele_name=eq.HLA-A%2A02%3A01&limit=1
+2026-06-16 16:31:25  INFO          Status: 200
+2026-06-16 16:31:25  INFO          Rows returned: 1
+2026-06-16 16:31:25  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:31:26  INFO        [organism + allele combined]
+2026-06-16 16:31:26  INFO          URL:    https://query-api.iedb.org/tcell_search?source_organism_iri=eq.NCBITaxon%3A2697049&mhc_allele_name=eq.HLA-A%2A02%3A01&limit=1
+2026-06-16 16:31:26  INFO          Status: 200
+2026-06-16 16:31:26  INFO          Rows returned: 1
+2026-06-16 16:31:26  INFO          Fields (86): tcell_id, tcell_iri, structure_id, structure_iri, linear_sequence, structure_type, structure_description, curated_source_antigen, reference_id, reference_iri, reference_type, pubmed_id ...
+2026-06-16 16:31:26  INFO      =================================================================
+
+2026-06-16 16:31:26  INFO        Querying HLA-A*01:01 ...
+2026-06-16 16:34:32  INFO          Raw hits: 465
+2026-06-16 16:34:32  INFO          Passed filters: 141
+2026-06-16 16:34:33  INFO        Querying HLA-A*02:01 ...
+2026-06-16 16:34:36  WARNING       Attempt 1/4: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-16 16:38:01  INFO          Raw hits: 1924
+2026-06-16 16:38:01  INFO          Passed filters: 265
+2026-06-16 16:38:01  INFO        Querying HLA-A*03:01 ...
+2026-06-16 16:38:11  INFO          Raw hits: 157
+2026-06-16 16:38:11  INFO          Passed filters: 38
+2026-06-16 16:38:12  INFO        Querying HLA-A*24:02 ...
+2026-06-16 16:39:25  INFO          Raw hits: 587
+2026-06-16 16:39:25  INFO          Passed filters: 112
+2026-06-16 16:39:26  INFO        Querying HLA-B*07:02 ...
+2026-06-16 16:39:30  WARNING       Attempt 1/4: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-16 16:40:32  INFO          Raw hits: 486
+2026-06-16 16:40:32  INFO          Passed filters: 134
+2026-06-16 16:40:33  INFO        Querying HLA-B*08:01 ...
+2026-06-16 16:40:35  INFO          Raw hits: 78
+2026-06-16 16:40:35  INFO          Passed filters: 42
+2026-06-16 16:40:35  INFO        Querying HLA-B*15:01 ...
+2026-06-16 16:41:00  INFO          Raw hits: 162
+2026-06-16 16:41:00  INFO          Passed filters: 43
+2026-06-16 16:41:01  INFO        Querying HLA-B*35:01 ...
+2026-06-16 16:42:19  INFO          Raw hits: 167
+2026-06-16 16:42:19  INFO          Passed filters: 20
+2026-06-16 16:42:20  INFO        Querying HLA-B*40:01 ...
+2026-06-16 16:42:26  WARNING       Attempt 1/4: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-16 16:43:29  INFO          Raw hits: 104
+2026-06-16 16:43:29  INFO          Passed filters: 43
+2026-06-16 16:43:29  INFO        Querying HLA-B*44:02 ...
+2026-06-16 16:45:03  INFO          Raw hits: 51
+2026-06-16 16:45:03  INFO          Passed filters: 17
+2026-06-16 16:45:04  INFO        Querying HLA-DRB1*03:01 ...
+2026-06-16 16:45:07  WARNING       Attempt 1/4: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-16 16:45:19  WARNING       Attempt 2/4: HTTPSConnectionPool(host='query-api.iedb.org', port=443): Max retries exceeded with url: /tcell_search?source_organism_iri=eq.NCBITaxon%3A2697049&host_organism_iri=eq.NCBITaxon%3A9606&mhc_allele_name=eq.HLA-DRB1%2A03%3A01&qualitative_measure=neq.Negative&linear_sequence_length=gte.13&structure_type=eq.Linear+peptide&order=tcell_id&limit=10000&offset=0 (Caused by NameResolutionError("HTTPSConnection(host='query-api.iedb.org', port=443): Failed to resolve 'query-api.iedb.org' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-16 16:46:32  INFO          Raw hits: 64
+2026-06-16 16:46:32  INFO          Passed filters: 10
+2026-06-16 16:46:33  INFO        Querying HLA-DRB1*04:01 ...
+2026-06-16 16:47:08  INFO          Raw hits: 103
+2026-06-16 16:47:08  INFO          Passed filters: 5
+2026-06-16 16:47:08  INFO        Querying HLA-DRB1*07:01 ...
+2026-06-16 16:47:55  INFO          Raw hits: 107
+2026-06-16 16:47:55  INFO          Passed filters: 20
+2026-06-16 16:47:55  INFO        Querying HLA-DRB1*11:01 ...
+2026-06-16 16:48:18  INFO          Raw hits: 87
+2026-06-16 16:48:18  INFO          Passed filters: 3
+2026-06-16 16:48:19  INFO        Querying HLA-DRB1*13:01 ...
+2026-06-16 16:48:34  INFO          Raw hits: 25
+2026-06-16 16:48:34  INFO          Passed filters: 7
+2026-06-16 16:48:35  INFO        Querying HLA-DRB1*15:01 ...
+2026-06-16 16:51:18  INFO          Raw hits: 188
+2026-06-16 16:51:18  INFO          Passed filters: 32
+2026-06-16 16:51:18  INFO      
+=================================================================
+2026-06-16 16:51:18  INFO      Output -> data/step2_iedb_epitopes.csv  (932 unique epitope-allele pairs)
+2026-06-16 16:51:18  INFO      
+Per-allele summary:
+2026-06-16 16:51:18  INFO        HLA-A*01:01             raw=  465  passed=141
+2026-06-16 16:51:18  INFO        HLA-A*02:01             raw= 1924  passed=265
+2026-06-16 16:51:18  INFO        HLA-A*03:01             raw=  157  passed= 38
+2026-06-16 16:51:18  INFO        HLA-A*24:02             raw=  587  passed=112
+2026-06-16 16:51:18  INFO        HLA-B*07:02             raw=  486  passed=134
+2026-06-16 16:51:18  INFO        HLA-B*08:01             raw=   78  passed= 42
+2026-06-16 16:51:18  INFO        HLA-B*15:01             raw=  162  passed= 43
+2026-06-16 16:51:18  INFO        HLA-B*35:01             raw=  167  passed= 20
+2026-06-16 16:51:18  INFO        HLA-B*40:01             raw=  104  passed= 43
+2026-06-16 16:51:18  INFO        HLA-B*44:02             raw=   51  passed= 17
+2026-06-16 16:51:18  INFO        HLA-DRB1*03:01          raw=   64  passed= 10
+2026-06-16 16:51:18  INFO        HLA-DRB1*04:01          raw=  103  passed=  5
+2026-06-16 16:51:18  INFO        HLA-DRB1*07:01          raw=  107  passed= 20
+2026-06-16 16:51:18  INFO        HLA-DRB1*11:01          raw=   87  passed=  3
+2026-06-16 16:51:18  INFO        HLA-DRB1*13:01          raw=   25  passed=  7
+2026-06-16 16:51:18  INFO        HLA-DRB1*15:01          raw=  188  passed= 32
+2026-06-16 16:51:18  INFO      
+Step 2 complete.  Pass data/step2_iedb_epitopes.csv to step3_boltz_benchmark.py and step4_boltz_predictions.py.

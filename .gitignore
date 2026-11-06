@@ -1,0 +1,15 @@
+# OS / editor cruft
+.DS_Store
+.~lock.*#
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment
+.env
+venv/

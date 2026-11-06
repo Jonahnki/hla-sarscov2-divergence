@@ -1,0 +1,7 @@
+group,feature,n,spearman_r,p_value,note
+Class I,Buried surface area (A2),23,-0.247,0.2559,
+Class I,Contact residue count,23,-0.191,0.3838,
+Class I,Polar contact count,23,-0.115,0.6015,
+Class II,Buried surface area (A2),12,-0.432,0.1612,
+Class II,Contact residue count,12,0.148,0.647,
+Class II,Polar contact count,12,0.037,0.909,
