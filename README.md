@@ -169,7 +169,8 @@ upload instructions.
 
 ## Citation
 
-[![DOI](https://zenodo.org/badge/1444590449.svg)](https://doi.org/10.5281/zenodo.23964602)
+[![DOI](https://zenodo.org/badge/1444590449.svg)](https://doi.org/10.5281/zenodo.24025041)
+
 
 This repository is archived on Zenodo at the DOI above. Cite this specific release when
 referencing the code and data underlying the manuscript.
