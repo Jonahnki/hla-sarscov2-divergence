@@ -170,8 +170,6 @@ upload instructions.
 This repository is archived on Zenodo at the DOI above. Cite this specific release when
 referencing the code and data underlying the manuscript.
 
-<!-- Add bioRxiv preprint citation once posted -->
-
 ## License
 
 Code (`notebooks/`) is released under the [MIT License](LICENSE).
