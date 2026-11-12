@@ -89,9 +89,7 @@ neither correlates with groove geometry.
 **Tissue-compartment expression divergence.** GTEx (bulk RNA-seq) and HPA (independent
 tissue RNA-seq) HLA gene expression estimates diverge by 0.69×–153.9× across shared
 tissue compartments (lung, spleen), a difference attributable to assay modality rather
-than data error. Neither database samples a true solid lymph node organ tissue or a
-canonical upper-airway/nasal-epithelium site; both gaps are reported explicitly rather
-than filled with an unverified proxy tissue (see Limitations below).
+than data error. GTEx does not sample a true solid lymph node organ tissue, and neither database samples a canonical upper-airway/nasal-epithelium site; HPA does provide a genuine lymph node compartment (HLA-A 112.4, HLA-B 980.1, HLA-DRB1 574.2 nTPM, each the highest of its three sampled compartments), reported descriptively since no GTEx comparator exists for it. The upper-airway/nasal-epithelium gap is reported explicitly rather than filled with an unverified proxy tissue (see Limitations below).
 
 ## Repository structure
 
@@ -133,9 +131,7 @@ Full column-level definitions in [`docs/data_dictionary.md`](docs/data_dictionar
 
 Reported explicitly rather than substituted or omitted:
 
-- **No true lymph node tissue** in GTEx or HPA. GTEx's nearest match by name,
-  "Cells – EBV-transformed lymphocytes," is a cultured cell line, not lymph node organ
-  tissue, and was excluded rather than used as a proxy.
+- **No true lymph node tissue** in GTEx. GTEx’s nearest match by name, “Cells – EBV-transformed lymphocytes,” is a cultured cell line, not lymph node organ tissue, and was excluded rather than used as a proxy. HPA’s tissue RNA-seq endpoint does include a genuine lymph node compartment (retained in Table_S6_hpa_hla_expression.csv), but with no GTEx counterpart it cannot be included in the cross-pipeline divergence comparison reported in Table_S6_cross_pipeline_concordance.csv.
 - **No true upper-airway/nasal-epithelium tissue** in GTEx or HPA. GTEx's nearest match,
   "Minor Salivary Gland," is exocrine gland tissue, not airway epithelium, and was
   likewise excluded.
